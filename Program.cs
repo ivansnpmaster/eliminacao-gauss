@@ -18,7 +18,7 @@ public class Program
 		string r = default;
 
 		for (int i = 0; i < s.Length; i++)
-			r += Math.Round(s[i], 2).ToString() + "\n";
+			r += $"{Math.Round(s[i], 2)}\n";
 
 		Console.WriteLine(r);
 	}
